@@ -1,0 +1,1 @@
+SELECT Year, avg((SecurityDelay /ArrDelay)*100) from flights GROUP BY Year

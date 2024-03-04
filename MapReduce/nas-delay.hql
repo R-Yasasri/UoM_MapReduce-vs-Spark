@@ -1,0 +1,1 @@
+SELECT Year, avg((NASDelay /ArrDelay)*100) from flights GROUP BY Year
